@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GesturesDemo.MainPage">
+
+    <StackLayout>
+        <Label Text="LAB 09" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+
+        <Label Text="Escoge una opción" HorizontalTextAlignment="Center" TextColor="White" FontSize="24"/>
+        <StackLayout>
+            <Button x:Name="Item1" Text="Tap"/>
+            <Button x:Name="Item2" Text="Pinch"/>
+            <Button x:Name="Item3" Text="Pan"/>
+            <Button x:Name="Item4" Text="Swipe"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
